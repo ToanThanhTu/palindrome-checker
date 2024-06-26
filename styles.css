@@ -1,19 +1,23 @@
+/* Defining custom colors using CSS variables in root */
 :root {
   --field-drab: #685634;
   --ecru: #E1BB80;
   --bistre: #352208;
 }
 
+/* Resetting default padding, margin, and setting box-sizing to border-box for all elements */
 *, *::before, *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* Ensuring the HTML and body elements take up the full height of the viewport */
 html, body {
   height: 100%;
 }
 
+/* Setting minimum width, background color, font, line height, and base font size for the HTML element */
 html {
   min-width: 300px;
   background-color: #ffffff;
@@ -22,11 +26,13 @@ html {
   font-size: 20px;  
 }
 
+/* Using flexbox for layout and setting background color */
 body {
   display: flex;
   background-color: var(--field-drab);
 }
 
+/* Styling the main container */
 main {
   width: 60%;
   max-width: 600px;
@@ -36,6 +42,7 @@ main {
   color: white;
 }
 
+/* Header and title styling */
 #project-header {
   font-weight: 200;
 }
@@ -44,6 +51,7 @@ main {
   padding-bottom: 20px;
 }
 
+/* Styling the palindrome input area */
 .palindrome-area {
   background-color: white;
   color: var(--bistre);
@@ -52,10 +60,12 @@ main {
   margin: 0 50px;
 }
 
+/* Adding padding to the input container */
 #input-div {
   padding: 20px;
 }
 
+/* Styling the text input field */
 #text-input {
   line-height: 3em;
   text-align: center;
@@ -68,6 +78,7 @@ main {
   letter-spacing: 0.1em;
 }
 
+/* Styling the check button */
 #check-btn {
   height: 3em;
   width: 100px;
@@ -78,11 +89,13 @@ main {
   letter-spacing: 0.1em;
 }
 
+/* Setting initial display to none for the result container */
 #result {
   padding: 20px;
   display: none;
 }
 
+/* Styling the hint section */
 .hint {
   margin: 20px 50px;
   display: flex;
@@ -92,11 +105,13 @@ main {
   color: var(--bistre);
 }
 
+/* Hint icon styling */
 #hint-icon {
   margin: auto 20px auto 30px;
   color: yellow;
 }
 
+/* Hint text styling */
 #hint-text {
   margin: 20px 20px 20px 5px;
 }
