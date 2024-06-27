@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />    
-    <!-- Linking Font Awesome library for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Palidrome Checker</title>
-  </head>
-  <body>
-    <main>
-      <h3 id="project-header">Thanh Toan Tu</h3>
-      <h1 id="project-title">Palindrome Checker</h1>
-      <div class="palindrome-area">
-        <label for="text-input">Enter in text to check for a palindrome:</label>
-        <div id="input-div">
-          <!-- Input field for user to enter text -->
-          <input id="text-input" placeholder="Enter your text" type="text" required />
-          <!-- Button to check if the entered text is a palindrome -->
-          <button id="check-btn" type="button">Check</button>
-        </div>
-        <div id="result">
-          <!-- Paragraph to display the result of the palindrome check -->
-          <p id="result-text"></p>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- Linking Font Awesome library for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Palidrome Checker</title>
+</head>
+
+<body>
+  <main>
+    <h3 id="project-header">Thanh Toan Tu</h3>
+    <h1 id="project-title">Palindrome Checker</h1>
+    <div class="palindrome-area">
+      <label for="text-input">Enter in text to check for a palindrome:</label>
+      <div id="input-div">
+        <!-- Input field for user to enter text -->
+        <input id="text-input" placeholder="Enter your text" type="text" required />
+        <!-- Button to check if the entered text is a palindrome -->
+        <button id="check-btn" type="button">Check</button>
       </div>
-      <div class="hint">
-        <!-- Font Awesome Icon to indicate a hint is provided -->
-        <i id="hint-icon" class="fa fa-lightbulb-o" style="font-size: 1.5em"></i>
-        <!-- Text explaining what a palindrome is -->
-        <p id="hint-text">A <i>palindrome</i> is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+      <div id="result">
+        <!-- Paragraph to display the result of the palindrome check -->
+        <p id="result-text"></p>
       </div>
-    </main>
-    <script src="./script.js"></script>
-  </body>
+    </div>
+    <div class="hint">
+      <!-- Font Awesome Icon to indicate a hint is provided -->
+      <i id="hint-icon" class="fa fa-lightbulb-o" style="font-size: 1.5em"></i>
+      <!-- Text explaining what a palindrome is -->
+      <p id="hint-text">A <i>palindrome</i> is a word or sentence that's spelled the same way both forward and backward,
+        ignoring punctuation, case, and spacing.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>This page is created by <a href="https://github.com/ToanThanhTu" target="_blank">Thanh Toan Tu</a></p>
+    <p>28th May 2024 | <a href="https://github.com/ToanThanhTu/palindrome-checker" target="_blank">Source Code</a></p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
 </html>

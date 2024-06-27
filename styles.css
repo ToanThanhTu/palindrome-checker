@@ -29,6 +29,7 @@ html {
 /* Using flexbox for layout and setting background color */
 body {
   display: flex;
+  flex-direction: column;
   background-color: var(--field-drab);
 }
 
@@ -115,4 +116,11 @@ main {
 #hint-text {
   margin: 20px 20px 20px 5px;
 }
-
+ /* Footer styling */
+footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+}
